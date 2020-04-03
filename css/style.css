@@ -50,8 +50,12 @@
 
 .apple-products .product {
   flex: 1;
-  height: 15rem;
+  /* height: 15rem; */
   border: 1px solid red;
+}
+.fluid-img {
+  max-width: 100%;
+  height: auto;
 }
 
 .more-links-footer {

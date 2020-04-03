@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 100%;
+  margin:- auto;
+}
 a {
   color: #08c;
 }
@@ -18,6 +22,8 @@ a {
 
 .nav-link-items {
   position: absolute;
+  background-size: cover;
+  background:url(../images/navbar.png) center no-repeat;
   left: 15%;
   top: 10%;
   width: 70%;
@@ -52,8 +58,6 @@ a {
 
 .apple-products .product {
   flex: 1;
-  /* height: 15rem; */
-  border: 1px solid red;
 }
 .fluid-img {
   max-width: 100%;

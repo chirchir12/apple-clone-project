@@ -7,11 +7,87 @@
 }
 
 .landing-section {
+  position: relative;
   border: 1px solid red;
   width: 100%;
+  height: 90vh;
+  background: url("../images/bg.jpg") right bottom no-repeat ;
+}
+
+.nav-link-items {
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  width: 70%;
+  height: 2rem;
+  border: 1px solid yellow;
+}
+
+.nav-link-items ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-link-items ul li:not(:first-child) {
+  border-left: 1px solid grey;
+}
+
+.welcome-section {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.apple-products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.apple-products .product {
+  flex: 1;
+  height: 15rem;
+  border: 1px solid red;
+}
+
+.more-links-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.more-links-footer .footer-link-items {
+  list-style: none;
+  display: flex;
 
 }
-.container {
-  max-width: 100%;
-  margin:0 auto;
+
+footer{
+  padding: 0 2rem;
+  font-size: .9rem;
+  margin-bottom: 1rem;
+}
+
+.more-links-footer {
+  margin: 1rem 0;
+}
+
+.more-links-footer .footer-link-items li {
+  margin-right: 1rem;
+}
+
+.more-links-footer .footer-link-items li:not(:first-child) {
+  border-left: 1px solid grey;
+}
+
+.copyright {
+  margin-left: 1.2rem;
+}
+
+.policy {
+  display: inline-block;
+  border-left:1px solid gray;
 }

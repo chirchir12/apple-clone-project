@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+a {
+  color: #08c;
+}
 .landing-section {
   position: relative;
   border: 1px solid red;
@@ -71,7 +73,7 @@
 
 footer{
   padding: 0 2rem;
-  font-size: .9rem;
+  font-size: .8rem;
   margin-bottom: 1rem;
 }
 
@@ -85,13 +87,30 @@ footer{
 
 .more-links-footer .footer-link-items li:not(:first-child) {
   border-left: 1px solid grey;
+  padding-left: .4rem;
 }
+p.shopping-scenario a{
+  text-decoration: none;
+
+} 
+
+.link-item a {
+  text-decoration: none;
+}
+
 
 .copyright {
   margin-left: 1.2rem;
 }
 
+.term-of-use {
+  padding-right: .5rem;
+  text-decoration: none;
+}
+
 .policy {
   display: inline-block;
   border-left:1px solid gray;
+  padding-left: .5rem;
+  text-decoration: none;
 }

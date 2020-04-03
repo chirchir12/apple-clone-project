@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-section {
+  border: 1px solid red;
+  width: 100%;
+
+}
+.container {
+  max-width: 100%;
+  margin:0 auto;
+}

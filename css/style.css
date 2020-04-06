@@ -7,48 +7,110 @@
 }
 .container {
   width: 100%;
-  margin:- auto;
+  max-width: 1400px;
+  font-family: 'Roboto', sans-serif;
+
+  margin:0 auto;
 }
 a {
   color: #08c;
+  text-decoration: none;
 }
 .landing-section {
   position: relative;
-  border: 1px solid red;
   width: 100%;
-  height: 90vh;
+  height: 94vh;
   background: url("../images/bg.jpg") right bottom no-repeat ;
 }
 
 .nav-link-items {
-  position: absolute;
+  display: flex;
+  position: relative;
   background-size: cover;
-  background:url(../images/navbar.png) center no-repeat;
-  left: 15%;
-  top: 10%;
+  background:  url('../images/navbar.png') no-repeat ;
+  margin: 0 auto;
+  top: 20%;
   width: 70%;
   height: 2rem;
-  border: 1px solid yellow;
 }
 
 .nav-link-items ul {
   height: 100%;
   width: 100%;
-  display: flex;
-  align-items: center;
   list-style: none;
-  justify-content: space-between;
+}
+.nav-link-items ul li {
+  display: inline-block;
+  padding: 5px 3.5%;
+  color: #fff;
+}
+.nav-link-items ul li:hover{
+  background-color: #666666;
+  border: 0;
+}
+.nav-link-items ul li:not(:first-child) {
+  border-left: 1px solid #424242;
 }
 
-.nav-link-items ul li:not(:first-child) {
-  border-left: 1px solid grey;
+.nav-link-items .search-nav {
+  width: 10rem;
+  border-left: 1px solid #636058;
+  display: flex;
+  align-items: center;
+}
+.nav-link-items .search-nav input{
+  width: 90%;
+  margin: 0 auto;
+  background-color:#636058 ;
+  border:1px solid #333330;
+  border-top:2px solid #333330;
+  padding: 3px 5px;
+  border-radius: 10px;
+}
+.nav-link-items .search-nav input:focus{
+  background: #fff;
+  outline: none;
 }
 
 .welcome-section {
-  position: absolute;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
   top: 20%;
-  left: 15%;
+  height: 50vh;
 }
+
+.welcome-section a {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+
+.question {
+  font-size: 3.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.share {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.verse {
+  font-size: 1.5rem;
+}
+
+.verse .text-content-link {
+  padding-right: 1rem;
+}
+.verse .text-content-link:hover {
+  border-bottom: 1px solid lightgrey;
+}
+
+
+
 
 .apple-products {
   display: flex;
@@ -101,7 +163,6 @@ p.shopping-scenario a{
 .link-item a {
   text-decoration: none;
 }
-
 
 .copyright {
   margin-left: 1.2rem;

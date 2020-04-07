@@ -20,13 +20,14 @@ a {
 
 .landing-section {
   position: relative;
-  width: 100%;
   height: 90vh;
   max-height: 94vh;
-  background: url("../images/bg.jpg") right bottom no-repeat;
+  background-size: contain;
+  background: url("../images/bg.jpg")50% 100% no-repeat;
 }
 
 .nav-link-items {
+  position: relative;
   border-radius: 4px;
   display: flex;
   position: relative;
@@ -70,6 +71,7 @@ a {
 }
 
 .nav-link-items .search-nav input {
+  position: relative;
   width: 90%;
   margin: 0 auto;
   background-color: #636058;

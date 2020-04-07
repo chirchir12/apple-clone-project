@@ -52,9 +52,8 @@ a {
   color: #fff; 
 }
 
-.nav-link-items ul li:not(:first-child){
+.nav-link-items ul li:not(:first-child) {
   border-left: 1px solid #636058;
-  
 }
 
 .nav-link-items ul li:hover {
@@ -68,7 +67,7 @@ a {
   align-items: center;
 }
 
-.nav-link-items .search-nav input{
+.nav-link-items .search-nav input {
   width: 90%;
   margin: 0 auto;
   background-color:#636058 ;
@@ -78,7 +77,7 @@ a {
   border-radius: 10px;
 }
 
-.nav-link-items .search-nav input:focus{
+.nav-link-items .search-nav input:focus {
   background: #fff;
   outline: none;
 }
@@ -93,7 +92,7 @@ a {
   height: 50vh;
 }
 
-.welcome-section a {
+.welcome-section a.size {
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -138,37 +137,32 @@ a {
 
 .more-links-footer {
   display: flex;
+  margin: 1rem 0;
   justify-content: space-around;
 }
 
 .more-links-footer .footer-link-items {
   list-style: none;
   display: flex;
-
 }
 
 footer {
   padding: 0 2rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin-bottom: 1rem;
 }
 
-.more-links-footer {
-  margin: 1rem 0;
-}
-
-.more-links-footer .footer-link-items li {
+.more-links-footer .footer-link-items li.link-item {
   margin-right: 1rem;
 }
 
 .more-links-footer .footer-link-items li:not(:first-child) {
   border-left: 1px solid grey;
-  padding-left: .4rem;
+  padding-left: 0.4rem;
 }
 
-p.shopping-scenario a{
+p.shopping-scenario a.appl {
   text-decoration: none;
-
 } 
 
 .link-item a {
@@ -181,13 +175,13 @@ p.shopping-scenario a{
 }
 
 .term-of-use {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
   text-decoration: none;
 }
 
 .policy {
   display: inline-block;
   border-left:1px solid gray;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   text-decoration: none;
 }

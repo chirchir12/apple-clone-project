@@ -22,12 +22,13 @@ a {
   position: relative;
   height: 90vh;
   max-height: 94vh;
-  background-size: contain;
-  background: url("../images/bg.jpg")50% 100% no-repeat;
+  background-size: cover;
+  background-image: url("../images/bg.jpg");
+  background-position:50% 100%;
+  background-repeat: no-repeat;
 }
 
 .nav-link-items {
-  position: relative;
   border-radius: 4px;
   display: flex;
   position: relative;

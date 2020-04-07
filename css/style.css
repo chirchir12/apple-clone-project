@@ -7,8 +7,8 @@
 }
 
 .container {
+  max-width: 100%;
   width: 100%;
-  max-width: 1400px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
@@ -21,11 +21,13 @@ a {
 .landing-section {
   position: relative;
   width: 100%;
-  height: 94vh;
+  height: 90vh;
+  max-height: 94vh;
   background: url("../images/bg.jpg") right bottom no-repeat;
 }
 
 .nav-link-items {
+  border-radius: 4px;
   display: flex;
   position: relative;
   background: linear-gradient(#757675 50%, #676967 50%);

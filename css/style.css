@@ -100,7 +100,6 @@ a {
 .welcome-section a.size {
   color: #fff;
   text-align: center;
-  display: inline-block;
 }
 
 .question {
@@ -114,7 +113,14 @@ a {
 }
 
 .verse {
+  display: flex;
   font-size: 1.5rem;
+  justify-content: center;
+  align-items: center!important;
+}
+
+.material-icons {
+  font-size: 35px;
 }
 
 .verse .text-content-link {

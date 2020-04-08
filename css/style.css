@@ -20,11 +20,10 @@ a {
 
 .landing-section {
   position: relative;
-  height: 90vh;
-  max-height: 94vh;
+  height: 84vh;
   background-size: cover;
   background-image: url("../images/bg.jpg");
-  background-position: 56% 105%;
+  background-position: 50% 100%;
   background-repeat: no-repeat;
 }
 

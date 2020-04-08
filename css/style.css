@@ -29,7 +29,7 @@ a {
 }
 
 .nav-link-items {
-  border-radius: 4px;
+  border-radius: 6px;
   display: flex;
   position: relative;
   background: linear-gradient(#757675 50%, #676967 50%);
@@ -65,7 +65,7 @@ a {
 }
 
 .nav-link-items .search-nav {
-  width: 10rem;
+  width: 15rem;
   border-left: 1px solid #636058;
   display: flex;
   align-items: center;
@@ -76,6 +76,9 @@ a {
   width: 90%;
   margin: 0 auto;
   background-color: #636058;
+  background-image: url(../images/search.svg);
+  background-position: left;
+  background-repeat: no-repeat;
   border: 1px solid #333330;
   border-top: 2px solid #333330;
   padding: 3px 5px;

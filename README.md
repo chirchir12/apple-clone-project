@@ -6,7 +6,7 @@
 > The project is not responsive at the moment 
 > We used semantic HTML to structure the markup 
 
-![screenshot](images/solo.png)
+![screenshot](images/final.png)
 
 ## Built With
 

@@ -150,14 +150,17 @@ a {
 }
 
 .more-links-footer {
-  display: flex;
   margin: 1rem 0;
-  justify-content: space-around;
+}
+
+.more-links-footer .shopping-scenario {
+  display: inline-block;
 }
 
 .more-links-footer .footer-link-items {
   list-style: none;
   display: flex;
+  float: right;
 }
 
 footer {
@@ -180,8 +183,7 @@ p.shopping-scenario a.appl {
 }
 
 .copyright-container {
-  width: 95.8%;
-  margin: 0 auto;
+  clear: both;
 }
 
 .term-of-use {

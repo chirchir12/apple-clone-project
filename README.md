@@ -29,7 +29,7 @@
     ``` https://github.com/chirchir12/apple-clone-project.git  ```
 - cd to ```apple-clone-project```
 
-- See the original page here: https://web.archive.org/web/20140301004610/http://www.apple.com/
+- See the original page [here](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
 - Check the index.html to edit the structure of the page.
 

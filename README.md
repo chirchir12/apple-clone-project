@@ -1,4 +1,4 @@
-# new-york-times-clone
+# Apple Clone Project
 
 > this is a clone of the Apple Store". 
 > The goal of the project was to learn how to use background images and to position it using background position and background size.
@@ -47,8 +47,8 @@ Give a ⭐️ if you like this project!
 
 ## Live preview
 
-You can check how the website looks in: https://rawcdn.githack.com/chirchir12/apple-clone-project/954db2912ad11ab81de203d38387b2f4018c052f/index.html
+You can check how the website looks [here](https://rawcdn.githack.com/chirchir12/apple-clone-project/954db2912ad11ab81de203d38387b2f4018c052f/index.html)
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
-# new-york-times-clone
+# Apple Clone Project
